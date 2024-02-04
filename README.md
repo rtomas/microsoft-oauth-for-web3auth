@@ -54,6 +54,13 @@ JWKS_FILE_NAME=jwks.json
 
 Open your browser and navigate to http://localhost:5005/ms/login to initiate the Microsoft OAuth flow.
 
+## How it works?
+
+When integrating Web3Auth with Microsoft Login the flow looks something like this:
+
+![Microsoft flow](https://github.com/rtomas/microsoft-oauth-for-web3auth/assets/944960/76b25237-4031-4535-8b3f-67335e430773)
+
+
 # Reference
 + [Custom JWT providers in Web3auth](https://web3auth.io/docs/auth-provider-setup/byo-jwt-providers)
 + [Microsoft OAUTH 2.0 flow](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-auth-code-flow#redeem-a-code-for-an-access-token)
