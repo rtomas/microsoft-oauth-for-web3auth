@@ -83,7 +83,7 @@ const fetchMicrosoftUserDetails = async (accessToken: string) => {
 // generate the JWT token for the user signed in with the private key
 const generateJwtToken = (userData: any) => {
     const payload = {
-        github_id: userData.id,
+        microsoft_id: userData.id,
         username: userData.userPrincipalName,
         sub: userData.id.toString(),
         name: userData.displayName,
